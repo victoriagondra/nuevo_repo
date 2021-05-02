@@ -1,0 +1,590 @@
+
+* a{ 
+color:white;
+text-decoration: none;
+
+
+
+	}
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #232323;
+  color: #cdcdcd;
+  font-family: 'Varela Round', sans-serif; text-align: left;
+}
+
+
+img {
+
+max-width: 100%;
+height: auto;
+
+
+}
+
+
+/* estilos pagina prensa  */
+
+.flexbox_columns_prensa
+{ display: flex;
+  margin-left: 10%;
+  margin-top:70px;
+  margin-right: 10%;
+
+}
+
+/* fin estilos pagina prensa  */
+
+
+
+/* estilos pagina novedades  */
+
+.txt_novedades
+
+{ 
+  margin-left: 10%;
+  margin-top:70px;
+  margin-right: 10%;
+
+}
+
+
+.left
+{ 
+
+margin-right: 8%;
+
+
+}
+
+/* fin estilos pagina novedades  */
+
+
+
+/* menu home  */
+
+.navbar {
+
+text-decoration: none;
+text-align: center;
+font-family: 'Varela Round', sans-serif;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-size: 12px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin:4em;
+
+
+}
+
+
+.navbar :hover {
+
+text-decoration: underline;
+text-align: center;
+font-family: 'Varela Round', sans-serif;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-size: 12px;
+background-image: linear-gradient(0deg, rgba(255,255,255,0.43601190476190477) 0%, rgba(186,217,206,0.4920343137254902) 49%, rgba(188,194,192,0.43881302521008403) 100%);
+
+
+}
+
+
+
+.boton_menu {
+border:1px;
+border-style: solid;
+padding: 3em;
+margin: 2em;
+border-color: white;
+margin:4em;
+
+
+}
+
+
+/* fin menu home  */
+
+
+/* estilos pagina publicaciones  */
+
+.titulo{
+margin:1em;
+font-family: 'Syncopate', sans-serif;
+color: white;
+font-size: 1em;
+word-spacing: 1px;
+letter-spacing: 1.2px;
+}
+
+
+.subtitulo{
+margin:1em;
+font-family: 'Varela Round', sans-serif;
+color: white;
+font-weight:;
+font-size: 0.8em;
+word-spacing: 1px;
+letter-spacing: 1.2px;
+}
+
+
+hr{
+
+border:solid;
+border-width: 1px;
+color: white;
+
+}
+
+
+
+.grid {
+  display: grid;
+  grid-template-rows: 800px  800px;
+  grid-auto-columns: 400px 400px 400px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-areas: "f d c"
+                      "b e a";
+  margin-left: 5%;                    
+
+
+
+
+
+}
+
+/* fin estilos pagina publicaciones  */
+
+
+
+
+
+h2
+
+{
+  margin:4em;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  line-height: 32px;
+  font-size: 1.3em;
+  word-spacing: 1px;
+  letter-spacing: 1.2px;
+}
+
+
+h3
+
+{
+  margin-left: 5em;
+  font-family: 'New Rocker', cursive;
+  line-height: 32px;
+  color: white;word-spacing: 1px;
+  letter-spacing: 1.3px;
+}
+
+h4
+
+{
+  margin-top: -2em;
+  font-family: 'New Rocker', cursive;
+  line-height: 32px;
+  color: white;word-spacing: 1px;
+  letter-spacing: 1.3px;
+  text-align: center;
+}
+
+h5
+
+{
+  font-size: 0.2em;
+  font-family: 'Varela Round', cursive;
+  line-height: 45px !important;
+  color: white;
+  word-spacing: 1px;
+  letter-spacing: 1.3px;
+  text-align: left;
+  margin-left: 4em;
+}
+
+
+
+
+
+h1 {
+
+ color: white;
+ font-family: 'Syncopate', sans-serif;
+ font-size: 20px;
+ letter-spacing: 5px;
+ padding: 2em;
+ text-align: center;
+
+}
+
+.big
+{
+  color: white;
+
+ 
+}
+
+ul {
+   color: white;
+   text-align: center;
+   font-family: 'Varela Round', sans-serif;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   font-size: 12px;
+ }
+
+p {
+  color: white;
+ 
+}
+
+section{
+  background-color: ;
+  padding: 2em;
+  font-family: 'Varela Round', sans-serif;
+  margin:0.5em;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+
+
+body {
+  -webkit-animation: background 10s cubic-bezier(1,0,0,1) infinite;
+  animation: background 10s cubic-bezier(1,0,0,1) infinite;  
+}
+
+
+@-webkit-keyframes background {
+  0% { background-color: #BCBCBC; }
+  33% { background-color: #7FCFC3; }  
+  67% { background-color: #B6C7A7; }
+  100% { background-color: #CB2B2D; }
+}
+
+@keyframes background {
+  0% { background-color: #BCBCBC; }
+  33% { background-color: #7FCFC3; }  
+  67% { background-color: #B6C7A7; }
+  100% { background-color: #CB2B2D; }
+}
+
+/* boton comprar */
+
+
+:root {
+  --border-size: 0.1rem;
+  --duration: 250ms;
+  --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  font-family: 'Varela Round', sans-serif;
+  --color-primary: white;
+  --color-secondary: grey;
+  --color-tertiary: dodgerblue;
+  --space: 1rem;
+}
+
+
+
+.multi-button {
+  display: flex;
+  width: 100%;
+  
+}
+
+.multi-button button {
+  flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  padding:
+    calc(var(--space) / 1.125)
+    var(--space)
+    var(--space);
+  border: var(--border-size) solid black;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  font-size: 1rem;
+
+ 
+  transition: flex-grow var(--duration) var(--ease);
+}
+
+.multi-button button + button {
+  border-left: var(--border-size) solid black;
+  margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+  flex-grow: 2;
+  color: white;
+  outline: none;
+  text-shadow: none;
+  background-color: var(--color-secondary);
+}
+
+
+
+.multi-button:hover button:focus:not(:hover) {
+  flex-grow: 1;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+  transform: translateY(var(--border-size));
+}
+
+
+
+/* fin boton comprar */
+
+
+
+
+
+/* menu hamburguesa */
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  text-align: left;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+   text-align: left;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and ( max-width: 480px){
+
+  .grid{
+                display:grid;
+                grid-template-columns: 100%;
+                grid-template-areas: 
+                            "a"
+                            "b"
+                            "c"
+                            "d"
+                            "e"
+                            "f"
+                           
+
+
+            }     
+
+
+.navbar {
+
+text-decoration: none;
+text-align: center;
+font-family: 'Varela Round', sans-serif;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-size: 14px;
+display: flex;
+flex-direction: column;
+margin:0.3em;
+transition: 2s;
+display: none;
+
+}
+
+h2
+
+{
+ margin:1em;
+}
+
+h3
+
+{
+ margin:1em;
+}
+
+
+h1
+
+{
+margin-top: 30px;
+}
+
+p
+{
+ text-align: center;
+}
+ 
+
+.flexbox_columns_prensa
+{ display: flex;
+flex-direction: column;
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #000000; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
